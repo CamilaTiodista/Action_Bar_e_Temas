@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom" />
+
+    //Apagar caso for testar no celular
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.widget.ShareActionProvider"/>
+
+
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/Feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never" />
+
+
+</menu>
